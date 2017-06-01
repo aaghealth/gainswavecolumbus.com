@@ -1,0 +1,28 @@
+name: GAINSWave Orlando
+description: GAINSWave Orlando
+paginate: 10
+baseurl: ''
+url: 'http://gainswaveorlando.com'
+
+
+physician_name: "Dr. John Carrozzella"
+practice_name: "Florida Center for Hormones and Wellness"
+logo: "logo.jpg"
+clinic_image: "florida_center_for_hormones_and_wellness.jpg"
+doctor_image: "john_carrozzella.jpg"
+address: "7575 Dr. Phillips Blvd Ste 370, Orlando, FL 32819"
+phone: "(407) 917-9120"
+phone_link: "4079179120"
+
+facebook_url: "https://www.facebook.com/gainswave/"
+twitter_url: "https://twitter.com/gainswave"
+youtube_url: "https://www.youtube.com/channel/UCWWUCBBqt1nca2TCRIEUNqw"
+
+keyword_location: "Orlando"
+site_title: "GAINSWave - A breakthrough solution for optimal sexual performance!"
+
+home_page_banner_tagline: "A Breakthrough Solution for Men Seeking Better Erections & Optimal Sexual Performance"
+home_page_video1: "<iframe width='560' height='220' src='https://www.youtube.com/embed/S_iNBM_kqxM' frameborder='0' allowfullscreen></iframe>"
+home_page_video2: "<iframe width='560' height='220' src='https://www.youtube.com/embed/clvHBG5co24?list=PLpU9rK7DkkiGPG8MSIxa0JwbkTXO__ZE5' frameborder='0' allowfullscreen></iframe>"
+home_page_video3: "<iframe width='560' height='220' src='https://www.youtube.com/embed/v7tILWT-ucU?list=PLpU9rK7DkkiGPG8MSIxa0JwbkTXO__ZE5' frameborder='0' allowfullscreen></iframe>"
+

@@ -1,0 +1,32 @@
+name: Gainswave Jekyll Theme
+description: Customs template for Jekyll
+paginate: 10
+baseurl: '/miami-fl-33180/'
+url: 'http://gainsmiami.com/miami-fl-33180'
+
+safe: true
+lsi: false
+source:'/miami-fl-33180/'
+
+physician_name: "Richard Gaines, MD"
+practice_name: "HealthGAINS"
+company: "HealthGAINS"
+logo: "logo.jpg"
+clinic_image: "healthgains.jpg"
+doctor_image: "gaines.jpg"
+practice_address: "20800 W Dixie Hwy Miami, FL 33180"
+phone: "(305) 755-4771"
+phone_link: "3057554771"
+address: "20800 W Dixie Hwy, Miami, FL 33180"
+map_directions: "20800+w+dixie+hwy+miami+fl+33138"
+map_location: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d896.7503350829436!2d-80.14873617076495!3d25.96799639897148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9ac612c73abfb%3A0xf716aa94d114ed22!2s20800+W+Dixie+Hwy%2C+Miami%2C+FL+33180!5e0!3m2!1sen!2sus!4v1491499651812"
+
+facebook_url: "https://www.facebook.com/gainswave/"
+twitter_url: "https://twitter.com/gainswave"
+youtube_url: "https://www.youtube.com/channel/UCWWUCBBqt1nca2TCRIEUNqw"
+
+main_keyword: "GAINSWave Miami"
+keyword_location: "Miami"
+site_title: "GAINSWave - A breakthrough solution for optimal sexual performance!"
+
+home_page_banner_tagline: "A Breakthrough Solution for Men Seeking Better Erections & Optimal Sexual Performance"

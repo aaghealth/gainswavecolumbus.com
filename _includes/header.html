@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>{{site.title}}</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		
+		<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/bootstrap.min.css">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">  
+		<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+		<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/jquery.bxslider.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="{{ site.baseurl }}/assets/js/bootstrap.min.js"></script>
+		<script src="{{ site.baseurl }}/assets/js/jquery.bxslider.js"></script>
+		<script>
+			$(document).ready(function(){
+				//$('.nav-bar').addClass('active');
+				$('.toggle-nav').click(function(){
+					$('.nav-bar').addClass('active');
+					$('.main-menu').css('display', 'none');
+				});
+				$('.close-bar-button').click(function(){
+					$('.nav-bar').removeClass('active');
+				});
+				
+				$(".nav-bar-list li.parent a").on("click",function(i){
+					i.preventDefault();
+					var e=$(this).siblings("ul");
+					$(this).hasClass("active")?($(this).removeClass("active"),e.slideUp()):($(this).addClass("active"),e.slideDown());
+				});
+			});
+			/* SLIDER QUOTE ON HOME */
+			$(document).ready(function(){
+			  $('.slider1').bxSlider({
+				slideWidth: 1170,
+				minSlides: 1,
+				maxSlides: 1,
+				slideMargin: 0
+			  });
+			});
+		</script>
+	
+		
+		<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P6SSF7W');</script>
+<!-- End Google Tag Manager -->
+	</head>
+
+	<body>
+		<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P6SSF7W"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+	<div class="wrapper">
+		<header class="header-wrap">
+			<div class="header-top">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12 header-top-content">
+							<ul>
+								<li><strong>Speak to a Medical Adviser:</strong> <a href="tel:1{{site.phone_link}}" title="Call to learn about GAUNSWave in {{site.keyword_location}}"><strong>{{site.phone}}</strong></a></li>
+								
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+				<div class="header-nav">
+					<div class="col-xs-6 col-sm-2 col-lg-2 header-logo" title="GAINSWave Procedure in {{site.keyword_location}}">
+						<a href="{{site.url}}"><img src="{{ site.url }}/assets/images/{{site.logo}}" alt="GAINSWave in {{site.keyword_location}}">
+						
+						</a>
+					</div>
+					<div class="col-xs-6 col-sm-10 col-lg-10 header-right">
+						<div class="col-xs-12 col-sm-12 col-lg-12 nav">
+							<a href="#" class="toggle-nav"><i class="fa fa-bars" aria-hidden="true"></i></a>
+							<ul class="main-nav">
+								<li><a href="{{site.url}}/about" title="About GAINSWave {{site.keyword_location}}">About Us</a></li>
+								<li><a href="{{site.url}}/what-is-gainswave" title="What is GAINSWave {{site.keyword_location}}">What is GAINSWave?</a>
+								    <ul class="sub-menu">
+								       <li><a href="{{site.url}}/benefits" title="Benefits of GAINSWave {{site.keyword_location}}">Benefits</a></li>
+								       <li><a href="{{site.url}}/erectile-dysfunction-treatment" title="Erectile Dysfunction Treatment {{site.keyword_location}}">Erectile Dysfunction Treatment</a></li>
+								       <li><a href="{{site.url}}/peyronies-disease-treatment" title="Peyronie's Disease Treatment {{site.keyword_location}}">Peyronie's Disease Treatment</a></li>
+								       <li><a href="{{site.url}}/sexual-performance-and-maintenance" title="Sexual Performance and Maintenance {{site.keyword_location}}">Sexual Performance and Maintenance</a></li>
+								       <li><a href="{{site.url}}/the-procedure" title="About the GAINSWave Procedure in {{site.keyword_location}}">The Procedure</a></li>
+							            </ul>	
+								</li>
+								<li><a href="{{site.url}}/testimonials" title="GAINSWave {{site.keyword_location}} Testimonials">Testimonials</a></li>
+								<li><a href="{{site.url}}/faqs" title="GAINSWave {{site.keyword_location}} FAQs">FAQs</a></li>
+								<li class="btn btn-appointment"><a href="{{site.url}}/request-an-appointment" title="Request an Appointment for GAINSWave in {{site.keyword_location}}">Request An Appointment</a></li>
+							</ul>
+						</div>
+						
+					</div>
+					</div>
+				</div>
+			</div>
+			<div class="nav-bar">
+				<div class="nav-bar-button">
+					<div class="close-bar-button"><i class="fa fa-times" aria-hidden="true"></i></div>
+					<a href="{{site.url}}/request-an-appointment" class="btn btn-request-bg" title="Request an Appointment for GAINSWave in {{site.keyword_location}}">Request an Appointment</a>
+				</div>
+				<div class="nav-bar-content">
+					<div class="nav-content-scroll" style="height:160px;">
+					<ul class="nav-bar-list">
+						<li><a href="{{site.url}}/about">About Us</a></li>
+						<li class="parent"><a href="{{site.url}}/what-is-gainswave" title="What is GAINSWave">What is GainsWave?</a>
+							<ul class="sub-menu">
+								<li><a href="{{site.url}}/benefits" title="Benefits of GAINSWave">Benefits</a></li>
+								<li><a href="{{site.url}}/erectile-dysfunction-treatment" title="Erectile Dysfunction Treatment in {{site.keyword_location}}">Erectile Dysfunction Treatment</a></li>
+								<li><a href="{{site.url}}/peyronies-disease-treatment" title="Peyronie's Disease Treatment in {{site.keyword_location}}">Peyronie's Disease Treatment</a></li>
+								<li><a href="{{site.url}}/sexual-performance-and-maintenance" title="GAINSWave: A Therapy for Optimal Sexual Performance available in {{site.keyword_location}}">Sexual Performance and Maintenance</a></li>
+								<li><a href="{{site.url}}/the-procedure" title="About the GAINSWave Procedure - Available in {{site.keyword_location}}">The Procedure</a></li>
+							</ul>
+						</li>
+						<li><a href="{{site.url}}/testimonials" title="GAINSWave {{site.keyword_location}} Testimonials">Testimonials</a></li>
+						<li><a href="{{site.url}}/faqs" title="GAINSWave {{site.keyword_location}} Frequently Asked Questions">FAQs</a></li>
+						<li><a href="{{site.url}}/request-an-appointment" title="Request an Appointment for GAINSWave in {{site.keyword_location}}">Request An Appointment</a></li>
+					</ul>
+					</div>
+				</div>
+				<div class="nav-bar-other">
+					<p>{{ site.phone }}</p>
+				</div>
+			</div>
+		</header>
