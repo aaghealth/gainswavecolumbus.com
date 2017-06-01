@@ -26,4 +26,4 @@ home_page_video1: "<iframe width='560' height='220' src='https://www.youtube.com
 home_page_video2: "<iframe width='560' height='220' src='https://www.youtube.com/embed/clvHBG5co24?list=PLpU9rK7DkkiGPG8MSIxa0JwbkTXO__ZE5' frameborder='0' allowfullscreen></iframe>"
 home_page_video3: "<iframe width='560' height='220' src='https://www.youtube.com/embed/v7tILWT-ucU?list=PLpU9rK7DkkiGPG8MSIxa0JwbkTXO__ZE5' frameborder='0' allowfullscreen></iframe>"
 
-map_location: "https://www.google.com/maps/place/7575+Dr+Phillips+Blvd+%23370,+Orlando,+FL+32819/@28.4523165,-81.4896332,17z/data=!3m1!4b1!4m5!3m4!1s0x88e77fa75b35d193:0x6057e287a566b6c7!8m2!3d28.4523118!4d-81.4874392?hl=en-US"
+map_location: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.903789813138!2d-81.48963324860854!3d28.452316498877934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e77fa75b35d193%3A0x6057e287a566b6c7!2s7575+Dr+Phillips+Blvd+%23370%2C+Orlando%2C+FL+32819!5e0!3m2!1sen!2sus!4v1496341579294"
