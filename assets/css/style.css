@@ -1055,3 +1055,15 @@ a:hover {
     font-size: 18px;
     height: auto !important;
 }
+
+.wForm .actions .primaryAction {
+    border: 2px solid white;
+    padding: 20px 0;
+    color: black;
+    letter-spacing: 2px;
+    box-shadow: 0px 0px 0px;
+}
+.wForm .actions .primaryAction:hover {
+    border: 2px solid ##f6aa00;
+    background:white;
+}
