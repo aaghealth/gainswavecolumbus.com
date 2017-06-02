@@ -642,6 +642,7 @@ header.header-wrap
 .footer-box
 {
 	padding:70px 0px;
+	background: rgba(246, 246, 248, 0.59);
 	
 }
 .footer-box h3
@@ -967,6 +968,8 @@ p.slogan {
     padding: 39px 19px 19px 19px;
     text-align: center;
     margin-right: 21px;
+    border: 10px solid white;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.13);
 }
 .col-xs-12.col-sm-3.col-lg-3.sidebar-right {
     padding: 29px;
