@@ -1029,3 +1029,8 @@ li.btn.btn-appointment:hover {
     box-shadow: 1px 1px 20px rgb(230, 230, 230);
     border-radius: 4px;
 }
+
+.col-xs-12.col-sm-3.col-lg-3.featured-6-location {
+    border: 3px solid whitesmoke;
+    padding: 20px;
+}
