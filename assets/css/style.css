@@ -1014,3 +1014,8 @@ img.pageimg.imgright {
     background: #ffffff;
     box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.15);
 }
+
+li.btn.btn-appointment:hover {
+    border: 1px solid #f6aa00;
+    background: #f6aa00;
+}
