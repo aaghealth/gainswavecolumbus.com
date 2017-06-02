@@ -1046,3 +1046,12 @@ li.btn.btn-appointment:hover {
 a:hover {
     text-decoration: none !important;
 }
+
+.wForm .oneField input[type="text"], .wForm .oneField textarea {
+    background: #f7f7f7;
+    border: 2px solid #cdcdcd;
+    box-shadow: initial;
+    padding: 14px 1px 11px 11px;
+    font-size: 18px;
+    height: auto !important;
+}
