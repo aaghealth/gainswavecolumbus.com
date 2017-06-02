@@ -1062,9 +1062,11 @@ a:hover {
     color: black;
     letter-spacing: 2px;
     box-shadow: 0px 0px 0px;
+    margin: 0;
 }
 .wForm .actions .primaryAction:hover {
     border: 2px solid #f6aa00;
     background:white;
     color: black;
+	
 }
