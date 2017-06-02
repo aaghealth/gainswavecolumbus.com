@@ -58,25 +58,5 @@
 
 
 
-<script>
-		jQuery(document).ready(function($){
-			$('.header-wrap').removeClass('scrolled');
-			 var lastScrollTop = 0, delta = 5;
-			$(window).scroll(function(){
-				var st = $(this).scrollTop();
-				if (st > 100)
-				{
-					$('.header-wrap').addClass('scrolled');
-				}
-				else 
-				{
-					$('.header-wrap').removeClass('scrolled');
-				}
-			});
-			$('.toggle-nav').click(function(){
-				
-				jQuery('.main-menu').stop(true,true).slideToggle(400,"easeOutCubic");
-			});
-		});
-	</script>
+{% include /scripts-footer.html %}
 	
