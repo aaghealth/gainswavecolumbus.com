@@ -1019,3 +1019,13 @@ li.btn.btn-appointment:hover {
     border: 1px solid #f6aa00;
     background: #f6aa00;
 }
+
+
+.featured-6-form .form {
+    padding: 36px 20px;
+    background: #ffffff;
+    border: 1px solid #f7f7f7;
+    float: left;
+    box-shadow: 1px 1px 20px rgb(230, 230, 230);
+    border-radius: 4px;
+}
