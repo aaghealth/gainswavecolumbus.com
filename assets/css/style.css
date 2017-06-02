@@ -1034,3 +1034,11 @@ li.btn.btn-appointment:hover {
     border: 3px solid whitesmoke;
     padding: 20px;
 }
+
+.featured-quote {
+    background: #ffffff;
+    padding: 39px 0px 0px 0px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #cccccc;
+    box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.08);
+}
