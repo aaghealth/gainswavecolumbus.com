@@ -1009,3 +1009,8 @@ img.pageimg.imgleft {
 img.pageimg.imgright {
     float: right;
 }
+
+.box-content-info:hover {
+    background: #ffffff;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.15);
+}
