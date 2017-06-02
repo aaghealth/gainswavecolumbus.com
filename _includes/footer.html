@@ -7,7 +7,7 @@
 					<p class="slogan">{{ site.home_page_banner_tagline }}</p>
 				</div>
 				<div class="col-xs-12 col-sm-3 col-lg-2">
-					<h3>GAINSWave</h3>
+					<h3>GAINSWave {{site.keyword_location}}</h3>
 					<ul>
 					<li><a href="{{site.url}}/benefits" title="Benefits of GAINSWave {{site.keyword_location}}">Benefits</a></li>
 					<li><a href="{{site.url}}/the-procedure" title="About the GAINSWave Procedure in {{site.keyword_location}}">The Procedure</a></li>
@@ -20,7 +20,7 @@
 					<h3>Benefits</h3>
 					<ul>
 					<li><a href="{{site.url}}/erectile-dysfunction-treatment" title="Erectile Dysfunction Treatment in {{site.keyword_location}}">Erectile Dysfunction Treatment</a></li>
-					<li><a href="{{site.url}}/peyronies-disease-treatment" title="Peyronie's Disease Treatment i n{{site.keyword_location}}">Peyronie's Disease Treatment</a></li>
+					<li><a href="{{site.url}}/peyronies-disease-treatment" title="Peyronie's Disease Treatment in {{site.keyword_location}}">Peyronie's Disease Treatment</a></li>
 					<li><a href="{{site.url}}/sexual-performance-and-maintenance" title="Sexual Performance Treatment in {{site.keyword_location}}">Sexual Performance and Maintenance</a></li>
 					</ul>
 				</div>
@@ -55,27 +55,5 @@
 		</div>
 	</div>
 </footer>
-	</div>
-	<script>
-		jQuery(document).ready(function($){
-			$('.header-wrap').removeClass('scrolled');
-			 var lastScrollTop = 0, delta = 5;
-			$(window).scroll(function(){
-				var st = $(this).scrollTop();
-				if (st > 100)
-				{
-					$('.header-wrap').addClass('scrolled');
-				}
-				else 
-				{
-					$('.header-wrap').removeClass('scrolled');
-				}
-			});
-			$('.toggle-nav').click(function(){
-				
-				jQuery('.main-menu').stop(true,true).slideToggle(400,"easeOutCubic");
-			});
-		});
-	</script>
-	</body>
-</html>
+
+
