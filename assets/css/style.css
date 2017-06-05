@@ -1092,3 +1092,15 @@ label#tfa_19-L {
 input#tfa_19 {
     width: 21px !important;
 }
+
+.featured-2 p {
+    text-align: center;
+    font-size: 21px;
+    font-weight: 300;
+    font-style: italic;
+    padding: 29px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.28);
+}
+.featured-2 p strong {
+    color: #f6aa00;
+}
