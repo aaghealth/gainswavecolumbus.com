@@ -394,10 +394,12 @@ header.header-wrap
 	border-left:0px solid;
 	text-align:center;
 }
-.featured-2-quote blockquote p
-{
-	font-size:28px;
-	margin:0px;
+.featured-2-quote blockquote p {
+    font-size: 20px;
+    margin: 0px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: left;
 }
 .featured-2-quote blockquote strong
 {
@@ -976,14 +978,13 @@ p.slogan {
     padding: 29px;
     background: #f1f1f1;
 }
-.entry-page blockquote
-{
-	    padding-left: 25px;
+.entry-page blockquote {
+    padding-left: 25px;
     margin-bottom: 20px;
     background: #ffffff;
     padding: 20px;
-    border: 3px solid #d8d8d8;
-    border-left: 30px solid #fcaf2c;
+    border: 1px solid #d8d8d8;
+    border-left: 10px solid #fcaf2c;
 }
 .entry-page blockquote a:hover
 {
