@@ -1085,8 +1085,9 @@ a .box-content-info:hover {
 
 label#tfa_19-L {
     color: black !important;
-    font-size: 13p !importantx;
+    font-size: 13px !importantx;
     letter-spacing: 0.2em !important;
+    padding-top: 8px !important;
 }
 input#tfa_19 {
     width: 21px !important;
