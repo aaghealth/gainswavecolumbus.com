@@ -1117,3 +1117,12 @@ input#tfa_19 {
 .featured-2 p strong {
     color: #f6aa00;
 }
+.entry-post h1.entry-title
+{
+	margin-bottom:0px;
+}
+.entry-post .post-meta
+{
+        font-size:12px;
+	margin-bottom:20px;
+}
