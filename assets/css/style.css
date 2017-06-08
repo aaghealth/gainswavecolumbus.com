@@ -1143,12 +1143,15 @@ input#tfa_19 {
 {
      list-style:none;	
 }
-.pagination ul li
+.pagination ul li 
 {
 	display:inline-block;
-	padding:5px 10px;
-	background:#000;
+	
 	margin-right:5px;
 }
-.pagination ul li a{color:#fff;text-decoration:none;}
-.pagination ul li:hover{background:#F6AA00;}
+.pagination ul li a{
+	color:#fff;
+	text-decoration:none;
+	padding:5px 10px;
+	background:#000;}
+.pagination ul li a:hover, .pagination ul li a.active{background:#F6AA00;}
