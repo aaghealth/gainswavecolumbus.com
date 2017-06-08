@@ -1,0 +1,24 @@
+---
+title: Blog
+layout: page-blog
+---
+{% for post in site.posts %}
+<div class="post-item">
+	<div class="featured-img">
+		<a href="{{ post.url }}"><img src=""></a>
+	</div>
+	<div class="post-content">
+		<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+		{{ post.content | strip_html | truncatewords: 50 }}
+	</div>
+</div>
+{% endfor %}
+<div class="PageNavigation">
+  {% if page.previous.url %}
+    <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+  {% endif %}
+  {% if page.next.url %}
+    <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+  {% endif %}
+</div>
+
