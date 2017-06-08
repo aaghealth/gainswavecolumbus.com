@@ -24,3 +24,5 @@ home_page_banner_tagline: "A Breakthrough Solution for Men Seeking Better Erecti
 home_page_video1: "<iframe width='560' height='220' src='https://www.youtube.com/embed/S_iNBM_kqxM' frameborder='0' allowfullscreen></iframe>"
 home_page_video2: "<iframe width='560' height='220' src='https://www.youtube.com/embed/clvHBG5co24?list=PLpU9rK7DkkiGPG8MSIxa0JwbkTXO__ZE5' frameborder='0' allowfullscreen></iframe>"
 home_page_video3: "<iframe width='560' height='220' src='https://www.youtube.com/embed/v7tILWT-ucU?list=PLpU9rK7DkkiGPG8MSIxa0JwbkTXO__ZE5' frameborder='0' allowfullscreen></iframe>"
+
+paginate_path: "/blog/page:num"
