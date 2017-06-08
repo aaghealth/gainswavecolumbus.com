@@ -17,7 +17,16 @@ body
 	line-height:normal;
 	color:#282828;
 }
-
+.alignleft
+{
+     float:left;
+     margin:0px 20px 20px 0px;
+}
+.alignright
+{
+     float:right;
+     margin:0px 0px 20px 20px;
+}
 /*
 	** HEADER
 */
