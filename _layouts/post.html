@@ -1,0 +1,19 @@
+{% include /header.html %}
+	<!-- Main -->
+	<div class="wrap-content">
+		<div class="container">
+			<div class="row">
+				<div class="appointment-wrap">
+					<div class="col-xs-12 col-sm-12 col-lg-12 content-main">
+						<article class="entry-page page-item">
+							<h1>{{ page.title }}</h1>
+							<div class="post-meta">{{ page.date | date_to_string }}</div>
+							{{ content }}
+						</article>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>			
+{% include /footer.html %}
