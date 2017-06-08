@@ -17,6 +17,10 @@ body
 	line-height:normal;
 	color:#282828;
 }
+.alignleft, .alignright
+{
+    max-width:300px;	
+}
 .alignleft
 {
      float:left;
