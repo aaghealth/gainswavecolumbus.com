@@ -4,10 +4,10 @@ layout: page-blog
 ---
 {% for post in site.posts %}
 <div class="post-item">
-	<div class="featured-img">
-		<a href="{{ post.url }}"><img src=""></a>
+	<div class="featured-img col-xs-12 col-sm-3 col-lg-3">
+		<a href="{{ post.url }}"><img src="{{ post.featured }}" alt="{{ post.title }}" width="300" height="300"></a>
 	</div>
-	<div class="post-content">
+	<div class="post-content col-xs-12 col-sm-9 col-lg-9">
 		<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 		{{ post.content | strip_html | truncatewords: 50 }}
 	</div>
