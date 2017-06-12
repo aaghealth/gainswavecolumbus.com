@@ -46,6 +46,13 @@ layout: emails-drip
         width: 100% !important;
         line-height: 100% !important;
     }
+    footer {
+    font-size: 11px;
+    text-align: center;
+    background: whitesmoke;
+    padding: 31px;
+    margin-top: 100px;
+    }
     
     img {
 		max-width:100%;
@@ -149,6 +156,7 @@ layout: emails-drip
 			text-align: center !important;
 		}
     }
+
     /*IPHONE STYLES*/
     
     @media only screen and (max-width: 480px) {
@@ -349,14 +357,12 @@ layout: emails-drip
 									</tr></tbody></table>
                                     
                                     <footer><table><tr><td>
-                                    <p>Copyright © 2017 GAINSWave, All rights reserved.</p>
-<p>You subscribed to this list because requested to learn more about becoming a GAINSWave provider at A4M.</p>
-
+                                    <p>Copyright © 2017 {{practice_name}}, All rights reserved.</p>
+<br/><br/>
 <p><strong>Our mailing address is:</strong></p>
 <p>{{practice_name}}</p>
 <p>{{address}}</p>
-
-<p>Want to change how you receive these emails?</p>
+<br/><br/>
 <p>You can <a href="{{{share}}}">forward to a friend</a> or <a href="{{{unsubscribe}}}">unsubscribe</a> from this list</p>
 </td>
 					</tr></tbody></table></footer>
