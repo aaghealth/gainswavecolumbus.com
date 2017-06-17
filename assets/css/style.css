@@ -770,7 +770,8 @@ header.header-wrap
 @media (max-width:767px)
 {
 	.header-top-content ul, .header-top-content li{text-align:center;}
-	.header-top-content li{padding:0px;font-size:30px;}
+	.header-top-content li{padding:0px !important;font-size:24px;}
+	.header-top-content li strong, .header-top-content li a{display:block;}
 	.logo-slogan
 	{
 		left:90px;
