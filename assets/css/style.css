@@ -769,6 +769,7 @@ header.header-wrap
 }
 @media (max-width:767px)
 {
+	.header-top-content ul, .header-top-content li{text-align:center;}
 	.logo-slogan
 	{
 		left:90px;
