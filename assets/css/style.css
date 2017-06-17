@@ -777,7 +777,7 @@ header.header-wrap
 	}
 	.nav .toggle-nav
 	{				
-		top:22px;
+		top:22px !important;
 	}
 }
 @media (max-width:767px)
