@@ -767,6 +767,10 @@ header.header-wrap
 		font-size:8px;
 	}
 	.caption-info h1{font-size:24px;}
+	.bx-wrapper
+	{
+		margin:0px 0px 20px 0px;	
+	}
 }
 @media (max-width:767px)
 {
