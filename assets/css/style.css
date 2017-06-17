@@ -800,6 +800,7 @@ header.header-wrap
 	.slidershow
 	{
 		background-position:center right;
+		padding:50px 0px;
 	}
 	.caption-info
 	{
@@ -807,6 +808,7 @@ header.header-wrap
 		padding:20px;
 		text-align:center;
 	}
+	.caption-info h1{font-size:30px;}
 	.featured-1-quote
 	{
 		padding:0px 0px 50px;
