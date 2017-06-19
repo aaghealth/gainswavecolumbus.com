@@ -802,6 +802,10 @@ header.header-wrap
 		left:90px;
 		right:initial;
 	}
+	.header-logo img
+	{
+		height:99px;
+	}
 	.header-nav .nav .main-nav
 	{
 		display:none;
