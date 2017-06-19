@@ -756,6 +756,10 @@ header.header-wrap
 }
 @media (max-width:480px)
 {
+	.header-logo img
+	{
+		height:55px;
+	}
 	.featured-6 h1
 	{
 	     font-size:34px;	
