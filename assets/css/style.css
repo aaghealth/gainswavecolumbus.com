@@ -169,7 +169,7 @@ header.header-wrap
 */
 .nav-bar
 {
-	max-width:300px;
+	width:280px;
 	position:fixed;
 	top:0px;
 	right:0px;
