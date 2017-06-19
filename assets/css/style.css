@@ -171,7 +171,7 @@ header.header-wrap
 	max-width:300px;
 	position:fixed;
 	top:0px;
-	right:35px;/*0px;*/
+	right:0px;
 	    display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
