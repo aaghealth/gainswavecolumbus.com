@@ -195,6 +195,7 @@ header.header-wrap
 }
 .close-bar-button
 {
+	display:none;
 	position: absolute;
     left: -20px;
     background: #000;
@@ -203,6 +204,10 @@ header.header-wrap
     transform: rotate(-45deg);
 	cursor:pointer;
 	
+}
+.nav-bar.active .close-bar-button
+{
+	display:block;	
 }
 .nav-bar-button i.fa
 {
