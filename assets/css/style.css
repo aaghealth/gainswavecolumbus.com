@@ -760,6 +760,10 @@ header.header-wrap
 }
 @media (max-width:480px)
 {
+	.nav-bar-content
+	{
+		
+	}
 	.header-logo img
 	{
 		height:55px;
