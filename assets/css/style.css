@@ -766,7 +766,7 @@ header.header-wrap
 	}
 	.header-logo img
 	{
-		height:55px;
+		height:55px !important;
 	}
 	.featured-6 h1
 	{
