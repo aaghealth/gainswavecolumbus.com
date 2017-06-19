@@ -191,7 +191,7 @@ header.header-wrap
 }
 .nav-bar-button
 {
-	padding:30px 25px 0px 45px;
+	padding:30px 15px 0px 35px;/*30px 25px 0px 45px;*/
 }
 .nav-bar.active .close-bar-button
 {
