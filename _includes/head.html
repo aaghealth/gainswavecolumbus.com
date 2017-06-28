@@ -4,8 +4,8 @@
 	{% else %}
 	<title>{{site.title}}</title>
 	{{endif}}
-	{% if page.page_description %}
-	        <meta name="description" content="{{ page.page_description }}">
+	{% if page.excerpt %}
+	        <meta name="description" content="{{ page.excerpt }}">
 	{% else %}
 	<meta name="description" content="{{site.site_description}}"/>
 	{{endif}}
