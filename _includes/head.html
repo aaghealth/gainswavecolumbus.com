@@ -1,15 +1,6 @@
 <head>
 	<meta charset="utf-8">
-	{% if page.meta_title %}
-		<title>{{ page.meta_title }}</title>
-	{% else %}
-		<title>{{site.title}}</title>
-	{{endif}}
-	{% if page.excerpt %}
-	        <meta name="description" content="{{ page.excerpt }}">
-	{% else %}
-		<meta name="description" content="{{site.site_description}}"/>
-	{{endif}}
+	<title>{% if page.meta_title %} title page {% else %}{{site.title}}{% endif %}</title>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="{{ site.url }}/assets/css/bootstrap.min.css">
