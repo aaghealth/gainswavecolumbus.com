@@ -1,13 +1,14 @@
 <head>
 	<meta charset="utf-8">
-	{% if page.title %}<title>{{ page.title }} - {{site.keyword_location}}</title>
+	{% if page.meta_title %}
+		<title>{{ page.meta_title }}</title>
 	{% else %}
-	<title>{{site.title}}</title>
+		<title>{{site.title}}</title>
 	{{endif}}
 	{% if page.excerpt %}
 	        <meta name="description" content="{{ page.excerpt }}">
 	{% else %}
-	<meta name="description" content="{{site.site_description}}"/>
+		<meta name="description" content="{{site.site_description}}"/>
 	{{endif}}
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
