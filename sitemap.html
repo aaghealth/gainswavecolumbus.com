@@ -3,7 +3,7 @@ layout:none
 ---
 <h1>Sitemap</h1>
 <ul>
-{% for p in site.pages %}{% include sitemapxml.html url=p.url %}
+{% for p in site.pages %}
 <li><a href="{{ site.url }}{{ p.url }}">{{p.url}}</a></li>
 {% endfor %}
 {% for post in site.posts %}
