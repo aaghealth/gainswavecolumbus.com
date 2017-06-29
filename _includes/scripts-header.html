@@ -12,10 +12,26 @@
 					$('.nav-bar').removeClass('active');
 				});
 				
-				$(".nav-bar-list li.parent a").on("click",function(i){
+				/*$(".nav-bar-list li.parent a").on("click",function(i){
 					i.preventDefault();
 					var e=$(this).siblings("ul");
 					$(this).hasClass("active")?($(this).removeClass("active"),e.slideUp()):($(this).addClass("active"),e.slideDown());
+				});*/
+				$(".nav-bar-list li.parent > a").on("click",function(i){
+					i.preventDefault();
+					var e=$(this).siblings("ul");
+
+					if ($(".nav-bar-list li.parent > a").hasClass("active"))
+					{
+						$(".nav-bar-list li.parent > a").bind('click');
+						window.location.href = $(".nav-bar-list li.parent > a").attr('href');
+
+					}
+					else
+					{
+						$(".nav-bar-list li.parent > a").addClass("active"),e.slideDown();
+					}
+
 				});
 			});
 			/* SLIDER QUOTE ON HOME */
