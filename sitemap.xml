@@ -20,4 +20,4 @@ layout:none
           <loc>{{ site.url }}{{ post.url | remove: 'index.html' }}</loc>
     </url>
     {% endfor %}
-</urlset>
+
