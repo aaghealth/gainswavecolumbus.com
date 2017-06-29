@@ -6,7 +6,7 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-<url>
+<!--<url>
   <loc>http://gainswaveorlando.com/</loc>
   <lastmod>2017-06-28T05:02:53+00:00</lastmod>
   <changefreq>weekly</changefreq>
@@ -83,5 +83,8 @@
   <lastmod>2017-06-28T05:02:53+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
-</url>
+</url> -->
+      {% for p in site.pages %}
+      {% include sitemap.html url=p.url %}
+      {% endfor %}
 </urlset>
