@@ -1,8 +1,4 @@
-<ul>
-{% for p in site.pages %}
-<li><a href="{{ site.url }}{{ p.url }}">{{p.url}}</a></li>
-{% endfor %}
-{% for post in site.posts %}
-<li><a href="{{ site.url }}{{ post.url }}">{{post.url}}</a></li>
-{% endfor %}
-</ul>
+
+<url>
+	<loc>{{ site.url }}{{ include.url }}</loc> 
+</url>
