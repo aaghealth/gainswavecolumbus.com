@@ -1,5 +1,4 @@
 ---
-
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
@@ -7,87 +6,19 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+    {% for post in site.posts %}
+    <url>
+        <loc>{{ site.url }}{{ post.url | remove: 'index.html' }}</loc>
+    </url>
+    {% endfor %}
 
-<!--<url>
-  <loc>http://gainswaveorlando.com/</loc>
-  <lastmod>2017-06-28T05:02:53+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>http://gainswaveorlando.com/about</loc>
-  <lastmod>2017-06-28T05:02:53+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://gainswaveorlando.com/what-is-gainswave</loc>
-  <lastmod>2017-06-28T05:02:53+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://gainswaveorlando.com/benefits</loc>
-  <lastmod>2017-06-28T05:02:53+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://gainswaveorlando.com/the-procedure</loc>
-  <lastmod>2017-06-28T05:02:53+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://gainswaveorlando.com/erectile-dysfunction-treatment</loc>
-  <lastmod>2017-06-28T05:02:53+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://gainswaveorlando.com/peyronies-disease-treatment</loc>
-  <lastmod>2017-06-28T05:02:53+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://gainswaveorlando.com/sexual-performance-and-maintenance</loc>
-  <lastmod>2017-06-28T05:02:53+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://gainswaveorlando.com/testimonials</loc>
-  <lastmod>2017-06-28T05:02:53+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://gainswaveorlando.com/faqs</loc>
-  <lastmod>2017-06-28T05:02:53+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://gainswaveorlando.com/request-an-appointment</loc>
-  <lastmod>2017-06-28T05:02:53+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://gainswaveorlando.com/contact</loc>
-  <lastmod>2017-06-28T05:02:53+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://gainswaveorlando.com/clinical-research</loc>
-  <lastmod>2017-06-28T05:02:53+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url> -->
-      {% for p in site.pages %}
-      {% include sitemap.html url=p.url %}
-      {% endfor %}
+    {% for page in site.pages %}
+    {% if page.layout != nil %}
+    {% if page.layout != 'redirect' %}
+    <url>
+        <loc>{{ site.url }}{{ page.url | remove: 'index.html' }}</loc>
+    </url>
+    {% endif %}
+    {% endif %}
+    {% endfor %}
 </urlset>
