@@ -12,12 +12,18 @@ layout:none
     {% if page.layout != none %}
     <url>
         <loc>{{ site.url }}{{ page.url | remove: 'index.html' }}</loc>
+           <lastmod>{{page.date}}</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.00</priority>
     </url>
     {% endif %}
     {% endfor %}
     {% for post in site.posts %}
     <url>
         <loc>{{ site.url }}{{ post.url | remove: 'index.html' }}</loc>
+           <lastmod>{{post.date}}</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>1.00</priority>
     </url>
     {% endfor %}
 </urlset>
