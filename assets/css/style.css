@@ -140,7 +140,9 @@ header.header-wrap{border-bottom:1px solid #e4e4e4;position:relative;}
 .slide p{font-size:24px;}
 .nav .toggle-nav{top:13px !important;}
 }
-@media (max-width:767px){.header-top-content ul, .header-top-content li{text-align:center;}
+@media (max-width:767px){
+  .header-top-content{text-align:center;}
+ .header-top-content ul, .header-top-content li{text-align:center;}
 .header-top-content li{padding:0px !important;font-size:24px;}
 .header-top-content li strong, .header-top-content li a{display:block;}
 .logo-slogan{left:90px;right:initial;}
