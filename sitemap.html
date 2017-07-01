@@ -7,7 +7,7 @@ title: Sitemap
  {% for page in site.pages %}
  
    {% if page.layout != null or page.layout != "emails-drip" %}
-   <li><a href="{{ site.url }}{{ page.url}}">{% if page.title != "" %}{{ page.title }}  {% else %} {{ page.meta_title }} {% endif %} {{ page.id }} - {{ page.layout}} </a></li>
+   <li><a href="{{ site.url }}{{ page.url | remove: 'index.html' | remove: '404.html' | remove: 'drip1.html' | remove: 'drip2.html' | remove: 'drip3.html' | remove: 'drip1txt.md'| remove: 'drip2txt.md' | remove: 'drip3txt.md'}}">{% if page.title != "" %}{{ page.title }}  {% else %} {{ page.meta_title }} {% endif %} {{ page.id }} - {{ page.layout}} </a></li>
    {% endif %}
   {% endfor %}
 </ul>
