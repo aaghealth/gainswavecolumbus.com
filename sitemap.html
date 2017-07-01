@@ -4,7 +4,7 @@ title: Sitemap
 ---
 <ul>
  {% for page in site.pages %}
-    {% if page.layout != null or page.url == '' %}
+    {% if page.layout != null or page.url != 'drip1.html' %}
     <li><a href="{{ site.url }}{{ page.url}}">{% if page.title != '' %}{{ page.title }} {% else %} {{ page.meta_title }} {% endif %}</a></li>
     {% endif %}
     {% endfor %}
