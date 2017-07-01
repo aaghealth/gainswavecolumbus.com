@@ -2,4 +2,20 @@
 layout: page-nosidebar
 title: Sitemap
 ---
+<ul>
 
+ {% for page in site.pages %}
+   {% if page.id == 'index' %}
+   <li><a href="{{ site.url }}{{ page.url}}">{{ 'Home' }}</a></li>
+   {% endif %}
+   {% if page.layout != null or page.layout != 'emails-drip' or page.url != '/sitemap.html' or page.url != '/404.html' %}
+   {% if page.title != '' or page.meta_title != '' %}
+    <li><a href="{{ site.url }}{{ page.url}}">{% if page.title != '' %}{{ page.title }}  {% else %} {{ page.meta_title }} {% endif %} {{ page.id }}</a></li>
+   {% endif %}{% endif %}
+  {% endfor %}
+</ul>
+<ul>
+    {% for post in site.posts %}
+    <li><a href="{{ site.url }}{{ post.url}}">{{ post.title }}</a></li>
+    {% endfor %}
+ </ul>
