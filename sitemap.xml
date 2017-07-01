@@ -12,7 +12,7 @@ layout: null
     {% for page in site.pages %}
     {% if page.layout != null %}
     <url>
-        <loc>{{ site.url }}{{ page.url | remove: 'index.html'| remove: '404.html' }}</loc> 
+        <loc>{{ site.url }}{{ page.url | remove: 'index.html,404.html' }}</loc> 
     </url>
     {% endif %}
     {% endfor %}
