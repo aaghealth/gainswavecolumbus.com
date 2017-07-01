@@ -4,13 +4,13 @@ title: Sitemap
 ---
 <ul>
  {% for page in site.pages %}
-    {% if page.layout != null %}
-    <li><a href="{{ site.url }}{{ page.url | remove: 'index.html' | remove: '404.html' }}">{{ page.url | remove: 'index.html' | remove: '404.html' }}</a></li>
+    {% if page.layout != null or page.url == '' %}
+    <li><a href="{{ site.url }}{{ page.url}}">{{ page.title }} - {{ page.url }}</a></li>
     {% endif %}
     {% endfor %}
 </ul>
 <ul>
     {% for post in site.posts %}
-    <li><a href="{{ site.url }}{{ post.url | remove: 'index.html' }}">{{ site.url }}{{ post.url | remove: 'index.html' }}</a></li>
+    <li><a href="{{ site.url }}{{ post.url | remove: 'index.html' }}">{{ site.url }}{{ post.title }}</a></li>
     {% endfor %}
  </ul>
