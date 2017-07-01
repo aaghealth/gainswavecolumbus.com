@@ -5,7 +5,7 @@ title: Sitemap
 <ul>
 
  {% for page in site.pages %}
-   {% if page.id == "index" %}
+   {% if page.url == "/index.html" %}
    <li><a href="{{ site.url }}{{ page.url}}">{{ "Home" }}</a></li>
    {% endif %}
   {% endfor %}
