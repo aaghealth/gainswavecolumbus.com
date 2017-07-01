@@ -2,12 +2,15 @@
 layout: page-nosidebar
 title: Sitemap
 ---
+<ul>
  {% for page in site.pages %}
     {% if page.layout != null %}
-    <a href="{{ site.url }}{{ page.url | remove: 'index.html' | remove: '404.html' }}">{{ page.url | remove: 'index.html' | remove: '404.html' }}</a>
-    </url>
+    <li><a href="{{ site.url }}{{ page.url | remove: 'index.html' | remove: '404.html' }}">{{ page.url | remove: 'index.html' | remove: '404.html' }}</a></li>
     {% endif %}
     {% endfor %}
+</ul>
+<ul>
     {% for post in site.posts %}
-    <a href="{{ site.url }}{{ post.url | remove: 'index.html' }}">{{ site.url }}{{ post.url | remove: 'index.html' }}</a>
+    <li><a href="{{ site.url }}{{ post.url | remove: 'index.html' }}">{{ site.url }}{{ post.url | remove: 'index.html' }}</a></li>
     {% endfor %}
+ </ul>
