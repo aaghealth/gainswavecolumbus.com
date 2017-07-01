@@ -9,7 +9,7 @@ title: Sitemap
    {% if page.layout != null and page.layout != "emails-drip" %}
   <!-- <li><a href="{{ site.url }}{{ page.url | remove: 'index.html' | remove: 'sitemap.html'| remove: 'sitemap.xml' | remove: '404.html' | remove: 'drip1.html' | remove: 'drip2.html' | remove: 'drip3.html' | remove: 'drip1txt.md'| remove: 'drip2txt.md' | remove: 'drip3txt.md'}}">{% if page.title != "" %}{{ page.title }}  {% else %} {{ page.meta_title }} {% endif %} {{ page.id }} - {{ page.layout}} </a></li> -->
   {% if page.url != "/index.html" and page.url != "/404.html" and page.url != "/sitemap.html" and page.url != "/sitemap.xml" and page.url != "drip1.html" and page.url != "drip2.html" and page.url != "drip3.html"  %} 
-  <li><a href="{{ site.url }}{{ page.url }}">{% if page.title != "" %}{{ page.title }}  {% else if page.meta_title != '' %} {{ page.meta_title  | remove: '#physician_name'}} {% endif %}</a></li>
+  <li><a href="{{ site.url }}{{ page.url }}">{% if page.title %}{{ page.title }}  {% else %} {{ page.meta_title  | remove: '#physician_name'}} {% endif %}</a></li>
   {% endif %}
   {% endif %}
   {% endfor %}
