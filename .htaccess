@@ -5,8 +5,8 @@ permalink: .htaccess
 Options -MultiViews
 
 RewriteEngine On
-RewriteCond %{http_host} ^gainswaveorlando.com [nc]
-RewriteRule ^(.*)$ http://gainswaveorlando.com/$1 [r=301,nc]
+RewriteCond %{http_host} ^gainswaveorlando.com [NC]
+RewriteRule ^(.*)$ http://gainswaveorlando.com/$1 [R=301,NC]
 RewriteRule /(.+)(\.html)$ /$1 [R=301,L]
 
 ErrorDocument 404 /404.html
