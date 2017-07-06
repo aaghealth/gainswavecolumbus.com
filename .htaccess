@@ -32,10 +32,7 @@ RewriteCond %{ENV:REDIRECT_STATUS} ^$
 # And the request has a HTML extension. Redirect to remove it.
 RewriteRule ^(.+).html$ /$1 [R=301,L]
 
-# If the request exists with a .html extension.
-RewriteCond %{SCRIPT_FILENAME}.html -f
-# And there is no trailing slash, rewrite to add the .html extension.
-RewriteRule [^/]$ %{REQUEST_URI}.html [QSA,L]
+
 
 ErrorDocument 404 http://gainswaveorlando.com/404
 
