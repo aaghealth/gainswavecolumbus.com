@@ -7,10 +7,11 @@ permalink: .htaccess
     Options +FollowSymlinks
   # Options +SymLinksIfOwnerMatch
     RewriteEngine On
-  # RewriteBase /
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)\.html$ /$1 [L,R=301]
 </IfModule>
 
-RewriteEngine On
 #RewriteCond %{http_host} ^gainswaveorlando.com [NC]
 #RewriteRule ^(.*)$ http://gainswaveorlando.com/$1 [R=301,NC]
 #RewriteRule /(.+)(\.html)$ /$1 [R=301,L]
