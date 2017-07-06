@@ -34,7 +34,7 @@ RewriteCond %{ENV:REDIRECT_STATUS} ^$
 RewriteRule ^(.+).html$ /$1 [R=301,L]
 
 
-
+redirect 301 /sitemap.html /sitemap
 ErrorDocument 404 http://gainswaveorlando.com/404
 
 
