@@ -2,16 +2,40 @@
 layout: null
 permalink: .htaccess
 ---
-Options -MultiViews
+#Options -MultiViews
+<IfModule mod_rewrite.c>
+    Options +FollowSymlinks
+  # Options +SymLinksIfOwnerMatch
+    RewriteEngine On
+  # RewriteBase /
+</IfModule>
 
 RewriteEngine On
 #RewriteCond %{http_host} ^gainswaveorlando.com [NC]
 #RewriteRule ^(.*)$ http://gainswaveorlando.com/$1 [R=301,NC]
 #RewriteRule /(.+)(\.html)$ /$1 [R=301,L]
+# ----------------------------------------------------------------------
+# Remove index.html
+# ----------------------------------------------------------------------
 
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)\.html$ /$1 [L,R=301] 
+# If it's a request to index(.html)
+RewriteCond %{THE_REQUEST}  /(.+/)?index(.html)?(?.*)?  [NC]
+# Remove it.
+RewriteRule ^(.+/)?index(.html)?$ /%1 [R=301,L]
+
+# ----------------------------------------------------------------------
+# Remove .html extensions
+# ----------------------------------------------------------------------
+
+# If it's a request from a browser, not an internal request by Apache/mod_rewrite.
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+# And the request has a HTML extension. Redirect to remove it.
+RewriteRule ^(.+).html$ /$1 [R=301,L]
+
+# If the request exists with a .html extension.
+RewriteCond %{SCRIPT_FILENAME}.html -f
+# And there is no trailing slash, rewrite to add the .html extension.
+RewriteRule [^/]$ %{REQUEST_URI}.html [QSA,L]
 
 ErrorDocument 404 http://gainswaveorlando.com/404
 
