@@ -5,3 +5,4 @@ permalink: .htaccess
 RewriteEngine On
 RewriteCond %{http_host} ^gainswaveorlando.com [nc]
 RewriteRule ^(.*)$ http://gainswaveorlando.com/$1 [r=301,nc]
+RewriteRule /(.+)(\.html)$ /$1 [R=301,L]
