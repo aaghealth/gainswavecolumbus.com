@@ -26,6 +26,6 @@ home_page_video1: "<iframe width='560' height='220' src='https://www.youtube.com
 home_page_video2: "<iframe width='560' height='220' src='https://www.youtube.com/embed/clvHBG5co24?list=PLpU9rK7DkkiGPG8MSIxa0JwbkTXO__ZE5' frameborder='0' allowfullscreen></iframe>"
 home_page_video3: "<iframe width='560' height='220' src='https://www.youtube.com/embed/v7tILWT-ucU?list=PLpU9rK7DkkiGPG8MSIxa0JwbkTXO__ZE5' frameborder='0' allowfullscreen></iframe>"
 
-permalink: pretty
+permalink: /:title
 paginate: 5
 paginate_path: "/blog/page:num"
