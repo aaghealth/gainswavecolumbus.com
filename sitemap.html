@@ -11,7 +11,7 @@ title: Sitemap
 
  {% if page.url != "/index.html"  and page.url != "/404/" and page.url != "/404.html" and page.url != "/thanks/" and page.url != "/sitemap/" and page.url != "/sitemap.xml" and page.url != "/drip1/" and page.url != "/drip2/" and page.url != "/drip3/"  %} 
  {% unless page.url contains "/page" %}
- <li><a href="{{ site.url }}{{ page.url }}">{% if page.title %}{{ page.title }} {% else %} {{ page.meta_title  | remove: '#physician_name'}} {% endif %}</a></li>
+ <li><a href="{{ site.url }}{{ page.url }}">{% if page.title %}{{ page.title }} - {{ page.url }} {% else %} {{ page.meta_title  | remove: '#physician_name'}} {% endif %}</a></li>
   {% endunless %}
   {% endif %}
   {% endif %}
