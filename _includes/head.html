@@ -2,7 +2,7 @@
 	<meta charset="utf-8">
 	<title>{% if page.meta_title %} {{page.meta_title  | replace:'#physician_name', site.physician_name}} - {{site.keyword_location}} {% else %}{{site.title}}{% endif %}</title>
 	<meta name="description" content="{% if page.excerpt and page.layout != 'post' %} {{page.excerpt | replace:'#key_location',site.keyword_location | replace: '#practice_name', site.practice_name | replace: '#phone', site.phone  }} {% else %} {{site.site_description}} {% endif %}"/>
-	<link rel="canonical" href="">
+	<link rel="canonical" href="{{ page.url}}">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="{{ site.url }}/assets/css/bootstrap.min.css">
