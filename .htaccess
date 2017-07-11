@@ -12,9 +12,6 @@ permalink: .htaccess
     RewriteRule ^(.*)\.html$ /$1 [L,R=301]
 </IfModule>
 
-#RewriteCond %{http_host} ^gainswaveorlando.com [NC]
-#RewriteRule ^(.*)$ http://gainswaveorlando.com/$1 [R=301,NC]
-#RewriteRule /(.+)(\.html)$ /$1 [R=301,L]
 # ----------------------------------------------------------------------
 # Remove index.html
 # ----------------------------------------------------------------------
