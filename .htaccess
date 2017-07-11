@@ -1,7 +1,3 @@
----
-layout: null
-permalink: .htaccess
----
 #Options -MultiViews
 <IfModule mod_rewrite.c>
     Options +FollowSymlinks
@@ -32,6 +28,4 @@ RewriteRule ^(.+).html$ /$1 [R=301,L]
 
 
 redirect 301 /sitemap.html /sitemap
-ErrorDocument 404 http://gainswaveorlando.com/404
-
-
+ErrorDocument 404 http://gainswavemiami.com/404
