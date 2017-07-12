@@ -1,7 +1,6 @@
 ---
 layout: null
 ---
-
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
@@ -10,15 +9,15 @@ layout: null
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
    
     {% for page in site.pages %}
-    {% if page.layout != null %}
-    <url>
-        <loc>{{ site.url }}{{ page.url | remove: 'index.html' | remove: '404.html' }}</loc> 
-    </url>
-    {% endif %}
+	{% if page.layout != null and page.layout != "emails-drip" %}
+		{% if page.url != "/"  and page.url != "/404/" and page.url != '/peyronie-disease-treatment-in-miami/' and page.url != "/blog/" and page.url != "/thanks/" and page.url != "/sitemap/" and page.url != "/sitemap.xml" and page.url != "/drip1/" and page.url != "/drip2/" and page.url != "/drip3/"  %} 
+		{% unless page.url contains "/page" %}
+                <url>
+                     <loc>{{ site.url }}{{ page.url }}</loc> 
+                </url>
+		{% endunless %}
+		{% endif %}
+	{% endif %}
     {% endfor %}
-    {% for post in site.posts %}
-    <url>
-          <loc>{{ site.url }}{{ post.url | remove: 'index.html' }}</loc>
-    </url>
-    {% endfor %}
+   
 </urlset>
