@@ -1,5 +1,51 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/bootstrap.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/jquery.bxslider.js"></script>
 <script>
-		jQuery(document).ready(function($){
+$(document).ready(function(){
+	//$('.nav-bar').addClass('active');
+	$('.toggle-nav').click(function(){
+		$('.nav-bar').addClass('active');
+		$('.main-menu').css('display', 'none');
+	});
+	$('.close-bar-button').click(function(){
+		$('.nav-bar').removeClass('active');
+	});
+
+	/*$(".nav-bar-list li.parent a").on("click",function(i){
+		i.preventDefault();
+		var e=$(this).siblings("ul");
+		$(this).hasClass("active")?($(this).removeClass("active"),e.slideUp()):($(this).addClass("active"),e.slideDown());
+	});*/
+	$(".nav-bar-list li.parent > a").on("click",function(i){
+		i.preventDefault();
+		var e=$(this).siblings("ul");
+
+		if ($(".nav-bar-list li.parent > a").hasClass("active"))
+		{
+			$(".nav-bar-list li.parent > a").bind('click');
+			window.location.href = $(".nav-bar-list li.parent > a").attr('href');
+
+		}
+		else
+		{
+			$(".nav-bar-list li.parent > a").addClass("active"),e.slideDown();
+		}
+
+	});
+});
+/* SLIDER QUOTE ON HOME */
+$(document).ready(function(){
+  $('.slider1').bxSlider({
+	slideWidth: 1170,
+	minSlides: 1,
+	maxSlides: 1,
+	slideMargin: 0
+  });
+});
+</script>
+<script>
+		$(document).ready(function(){
 			$('.header-wrap').removeClass('scrolled');
 			 var lastScrollTop = 0, delta = 5;
 			$(window).scroll(function(){
