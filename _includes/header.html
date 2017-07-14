@@ -10,11 +10,15 @@
 						<div class="col-md-12 header-top-content">
 							<div class="col-xs-12 col-md-6">
 								<span>{{site.address}}</span>
+								<meta itemprop="streetAddress" content="{{site.streetaddress}}">>
+								<meta itemprop="addressLocality" content="{{site.city}}">
+								<meta itemprop="addressRegion" content="{{site.state}}">>
+								<meta itemprop="postalCode" content="{{site.zipcode}}">>
 							</div>
-							<div class="col-xs-12 col-md-6"><ul>
+							<div class="col-xs-12 col-md-6 header-top-right"><ul>
 								<li><strong>Speak to a Medical Adviser:</strong> 
 								<a href="tel:1{{site.phone_link}}" title="Call to learn about GAUNSWave in {{site.keyword_location}}">
-								<strong>{{site.phone}}</strong></a></li>
+								<strong class="header-phone">{{site.phone}}</strong></a></li>
 							</ul>
 							</div>
 						</div>
