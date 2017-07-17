@@ -4,6 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="robots" content="noindex, nofollow">
+{% if page.url = '/drip1/' and page.url = '/drip2/' and page.url = '/drip3/' %}	
 <style type="text/css">
     /* Client-specific Styles */
     
@@ -264,6 +265,7 @@
 <meta name="shareable_id" content="1">
 <meta name="shareable_collection" content="social_shares">
 <link rel="stylesheet" type="text/css" href="http://app.streamsend.com/stylesheets/social_bar_dialog.css">
+{% endif %}
 </head>
 <body cz-shortcut-listen="true">
 	{{ content }}						
