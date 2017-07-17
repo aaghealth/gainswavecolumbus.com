@@ -10,4 +10,7 @@
 	<link rel="stylesheet" href="{{ site.url }}/assets/css/style.css">
 	<link rel="stylesheet" href="{{ site.url }}/assets/css/jquery.bxslider.css">
 	{% include /scripts-header.html %}
+	{% if page.layout = "emails-drip" %}
+	<meta name="robots" content="noindex, nofollow">
+	{% endif%}
 </head>
