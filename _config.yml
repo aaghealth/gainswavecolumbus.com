@@ -34,6 +34,5 @@ home_page_video3: "<iframe width='560' height='220' src='https://www.youtube.com
 paginate: 5
 paginate_path: "/blog/page:num"
 
-exclude: [node_modules, gulpfile.js, package.json]
 include: [.htaccess]
 permalink: pretty
