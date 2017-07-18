@@ -1,4 +1,4 @@
-#cache
+## EXPIRES CACHING ##
 <IfModule mod_expires.c>
 ExpiresActive On
 ExpiresByType image/jpg "access 1 year"
@@ -13,7 +13,11 @@ ExpiresByType application/x-shockwave-flash "access 1 month"
 ExpiresByType image/x-icon "access 1 year"
 ExpiresDefault "access 2 days"
 </IfModule>
-#finish
+## EXPIRES CACHING ##
+#1 Month for most static assets
+<filesMatch ".(css|jpg|jpeg|png|gif|js|ico)$">
+Header set Cache-Control "max-age=2592000, public"
+</filesMatch>
 #Options -MultiViews
 <IfModule mod_rewrite.c>
     Options +FollowSymlinks
