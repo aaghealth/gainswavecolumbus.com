@@ -6,7 +6,7 @@
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteRule ^(.*)\.html$ /$1 [L,R=301]
-</IfModule>s
+</IfModule>
 
 # ----------------------------------------------------------------------
 # Remove index.html
