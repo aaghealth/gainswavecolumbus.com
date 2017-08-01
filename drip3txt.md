@@ -19,4 +19,7 @@ Our mailing address is:
 {{site.practice_name}}
 {{site.address}}
 
+For more information contact us at  {{site.phone}}
+
+
 You unsubscribe from this list by visiting &#123;&#123;&#123;unsubscribe&#125;&#125;&#125;
