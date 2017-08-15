@@ -9,7 +9,7 @@ categories: ''
 <p>In 40% of men over 40 and in up to 70% of men aged 70, erectile dysfunction (ED) is the condition characterized by inability to develop or maintain an erection during sexual activity. Up until now, the “little blue pill” has been what these men have gotten from their erectile dysfunction doctors for an active sex life. Some have received no treatment, suffering ED because they were embarrassed and couldn’t volunteer the problem to their healthcare provider.</p>
 <p>Fast-forward to now: non-drug treatments for ED such as shock wave therapy are here, and such ED treatment options are revolutionizing how erectile dysfunction is treated.</p>
 <p>No longer should erectile dysfunction ruin your sex life and no longer need you depend on a little blue pill or other ED medications—prescription medications—to achieve and maintain an erection; discuss your  ED treatment options with an erectile dysfunction doctor today.</p>
-<blockquote>To schedule a consultation with a healthcare provider in {{site.keyword_location}} that specializes in ED natural cures, call or contact us online.</blockquote>
+<blockquote>To schedule a consultation with a healthcare provider in {{site.keyword_location}} that specializes in ED natural cures, call <a href="tel:+{{site.phone_link}}" title="call {{site.title}}">{{site.phone}}</a> or <a href="{{site.url}}/request-an-appointment">click here</a> to contact us online.</blockquote>
 <h2>Downfalls of Traditional Erectile Dysfunction Medication</h2>
 <p>Erectile dysfunction typically has been treated with prescription medication such as Viagra®, Stendra®, Cialis®, and Levitra®. These ED medications work by relaxing muscles and boosting blood flow to the penis, causing an erection or maintaining it. However, there are many disadvantages to such prescription medications, which were all originally based on medication developed to treat things other than erectile dysfunction. Besides fatigue, consider the other unwanted side effects:</p>
 <ul>
@@ -36,6 +36,6 @@ categories: ''
   <li>The procedure is a good investment of your time, for it requires very little for a big payoff</li>
 </ul>
 <p>Fast-forward again. A revolutionary form of extracorporeal shockwave therapy, GAINSWave™ erectile dysfunction treatment, is now available with a 90% success rate among ED patients. Each procedure consists of a 20-30 minute commitment and upon successful treatment, results typically last up to 2 years. (Compare with the half-life of Viagra and Cialis, half of which are metabolized within 6 hours and 18 hours, respectively.) Years vs. hours. It’s the difference between being erectile functional and erectile dysfunctional.</p>
-<p>Interested in GAINSWave™ shockwave erectile dysfunction treatment? Schedule a consultation in Phoenix. Call {{site.phone}} or <a href="{{site.click_here}}">click here</a> to contact us online.</p>
+<p>Interested in GAINSWave™ shockwave erectile dysfunction treatment? Schedule a consultation in Phoenix. Call <a href="tel:+{{site.phone_link}}" title="call {{site.title}}">{{site.phone}}</a> or <a href="{{site.url}}/request-an-appointment">click here</a> to contact us online.</p>
 <p><strong>Meet With A Erectile Dysfunction Specialist in {{site.keyword_location}} <br>
 Request Your Appointment Today!</strong></p>
