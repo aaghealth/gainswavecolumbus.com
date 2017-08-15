@@ -5,7 +5,7 @@ featured: /assets/images/doctor.jpg
 date:   2017-06-08
 categories: ''
 ---
-![10 Tips to Enhance Men’s Sexual Health in {{site.keyword_location}}](/assets/images/doctor.jpg){:class="alignleft"}{:height="300px" width="300px"}
+![10 Tips to Enhance Men’s Sexual Health in {{site.keyword_location}}](/assets/images/erectile-dysfunction.jpg){:class="alignleft"}{:height="300px" width="300px"}
 <p>We are sexual creatures. We come from sex and we love with sex. So sex is very important, which makes it troubling that at least half of American men experience some sexual dysfunction.</p>
 <p>Sex is complicated in its psychodynamics, but it is also complicated from a physical aspect. Having an erection, maintaining one, or ejaculation problems (too soon or too delayed) can seriously jeopardize your relationship. Libido, that is, sexual desire, is hormonally controlled, and any change in it can send the wrong signal to your partner, risking estrangement. Then a vicious cycle begins, the physiological increasing the psychological, back and forth. This is not normal and it is unacceptable to assume any of these just come with age. (They actually do come with age—what is unacceptable is accepting it!)</p>
 <p>Schedule a consultation with a healthcare provider in {{site.keyword_location}} that can revitalize your sexual health. Call {{site.phone}} or {{click here}} to contact us online.</p>
