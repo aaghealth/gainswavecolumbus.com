@@ -36,4 +36,4 @@ categories: ''
 
 <p>Shock wave therapy has been well-received by many different patients. Men have reported that shock wave therapy provides immediate improvement to sensitivity, with maximum results within 8 to 12 weeks. Although moderate to severe ED can require additional therapies, such as supplements, shock wave therapy can be extremely effective for men of all types.</p>
 
-<p>For more on this innovative, drug-free, pain-free ED treatment in {{site.keyword_location}}, {{click here}} to contact today. We’ll reach out to you with information so you can start reclaiming your sex life and your passion in the bedroom!</p>
+<p>For more on this innovative, drug-free, pain-free ED treatment in {{site.keyword_location}}, {{click_here}} to contact today. We’ll reach out to you with information so you can start reclaiming your sex life and your passion in the bedroom!</p>
