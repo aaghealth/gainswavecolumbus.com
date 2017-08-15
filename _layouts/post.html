@@ -9,7 +9,7 @@
 								<div class="appointment-wrap">
 									<div class="col-xs-12 col-sm-9 col-lg-9 content-main">
 										<article class="entry-post page-item">
-							<h1 class="entry-title">{{ page.title }}</h1>
+							<h1 class="entry-title">{{page.title | replace:'#key_location',site.keyword_location }}</h1>
 							<div class="post-meta">{{ page.date | date_to_string }}</div>
 							{{ content }}
 						</article>
