@@ -37,5 +37,5 @@ categories: ''
 </ul>
 <p>Fast-forward again. A revolutionary form of extracorporeal shockwave therapy, GAINSWave™ erectile dysfunction treatment, is now available with a 90% success rate among ED patients. Each procedure consists of a 20-30 minute commitment and upon successful treatment, results typically last up to 2 years. (Compare with the half-life of Viagra and Cialis, half of which are metabolized within 6 hours and 18 hours, respectively.) Years vs. hours. It’s the difference between being erectile functional and erectile dysfunctional.</p>
 <p>Interested in GAINSWave™ shockwave erectile dysfunction treatment? Schedule a consultation in Phoenix. Call <a href="tel:+{{site.phone_link}}" title="call {{site.title}}">{{site.phone}}</a> or <a href="{{site.url}}/request-an-appointment">click here</a> to contact us online.</p>
-<p><strong>Meet With A Erectile Dysfunction Specialist in {{site.keyword_location}} <br>
+<p><strong>Meet With an <b>Erectile Dysfunction Specialist in {{site.keyword_location}} </b><br>
 Request Your Appointment Today!</strong></p>
