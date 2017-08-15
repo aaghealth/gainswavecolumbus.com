@@ -5,7 +5,7 @@ featured: /assets/images/doctor.jpg
 date:   2017-06-08
 categories: ''
 ---
-![Shockwave Therapy vs. Viagra Medication in {{site.keyword_location}}](/assets/images/doctor.jpg){:class="alignleft"}
+![Shockwave Therapy vs. Viagra Medication in {{site.keyword_location}}](/assets/images/shockwave-therapy.jpg){:class="alignleft"}
 <p>In 40% of men over 40 and in up to 70% of men aged 70, erectile dysfunction (ED) is the condition characterized by inability to develop or maintain an erection during sexual activity. Up until now, the “little blue pill” has been what these men have gotten from their erectile dysfunction doctors for an active sex life. Some have received no treatment, suffering ED because they were embarrassed and couldn’t volunteer the problem to their healthcare provider.</p>
 <p>Fast-forward to now: non-drug treatments for ED such as shock wave therapy are here, and such ED treatment options are revolutionizing how erectile dysfunction is treated.</p>
 <p>No longer should erectile dysfunction ruin your sex life and no longer need you depend on a little blue pill or other ED medications—prescription medications—to achieve and maintain an erection; discuss your  ED treatment options with an erectile dysfunction doctor today.</p>
