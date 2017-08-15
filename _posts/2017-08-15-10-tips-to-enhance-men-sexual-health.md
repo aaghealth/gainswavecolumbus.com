@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  10 Tips to Enhance Men’s Sexual Health in {{site.keyword_location}}
+title:  10 Tips to Enhance Men’s Sexual Health in #key_location
 featured: /assets/images/erectile-dysfunction.jpg
 date:   2017-08-15
 categories: ''
