@@ -5,7 +5,7 @@ featured: /assets/images/doctor.jpg
 date:   2017-06-08
 categories: ''
 ---
-![Shock Wave Therapy for Erectile Dysfunction in {site.keyword_location}}](/assets/images/erectile-dysfunction.jpg){:class="alignleft"}
+![Shock Wave Therapy for Erectile Dysfunction in {site.keyword_location}}](/assets/images/shockwave-therapy-for-ed.jpg){:class="alignleft"}
 <p>If you or your partner has struggled with erectile dysfunction, often called “ED,” you have likely tried many different treatments.</p>
 
 <p>Have they worked? If they did, did it last?</p>
