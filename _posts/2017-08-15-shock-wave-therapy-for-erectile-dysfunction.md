@@ -34,6 +34,6 @@ categories: ''
 
 <p>However, it appears that men with penile implants or men with anti-coagulant therapy are typically not good candidates for the procedure. No matter what your medical history, it’s essential that you discuss the treatment with your doctor before proceeding.</p>
 
-<p>Shock wave therapy has been well-received by many different patients. Men have reported that shock wave therapy provides immediate improvement to sensitivity, with maximum results within 8 to 12 weeks. Although moderate to severe ED can require additional therapies, such as supplements, shock wave therapy can be extremely effective for men of all types.</p>
+<p><b>Shock wave therapy</b> has been well-received by many different patients. Men have reported that shock wave therapy provides immediate improvement to sensitivity, with maximum results within 8 to 12 weeks. Although moderate to severe ED can require additional therapies, such as supplements, shock wave therapy can be extremely effective for men of all types.</p>
 
-<p>For more on this innovative, drug-free, pain-free ED treatment in {{site.keyword_location}}, <a href="{{site.click_here}}">click here</a> to contact today. We’ll reach out to you with information so you can start reclaiming your sex life and your passion in the bedroom!</p>
+<p>For more on this innovative, drug-free, pain-free ED treatment in {{site.keyword_location}}, Call <a href="tel:+{{site.phone_link}}" title="call {{site.title}}">{{site.phone}}</a> or <a href="{{site.url}}/request-an-appointment">click here</a> to contact us today. We’ll reach out to you with information so you can start reclaiming your sex life and your passion in the bedroom!</p>
