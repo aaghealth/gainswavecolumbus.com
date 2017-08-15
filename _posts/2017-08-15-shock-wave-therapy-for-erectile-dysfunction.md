@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Shock Wave Therapy for Erectile Dysfunction in {site.keyword_location}}
-featured: /assets/images/doctor.jpg
-date:   2017-06-08
+featured: /assets/images/shockwave-therapy-for-ed.jpg
+date:   2017-08-15
 categories: ''
 ---
 ![Shock Wave Therapy for Erectile Dysfunction in {site.keyword_location}}](/assets/images/shockwave-therapy-for-ed.jpg){:class="alignleft"}
