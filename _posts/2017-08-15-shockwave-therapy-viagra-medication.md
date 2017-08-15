@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Shockwave Therapy vs. Viagra Medication in {{site.keyword_location}}
-featured: /assets/images/doctor.jpg
-date:   2017-06-08
+featured: /assets/images/shockwave-therapy.jpg
+date:   2017-08-15
 categories: ''
 ---
 ![Shockwave Therapy vs. Viagra Medication in {{site.keyword_location}}](/assets/images/shockwave-therapy.jpg){:class="alignleft"}
