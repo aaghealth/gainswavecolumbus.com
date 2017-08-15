@@ -8,7 +8,7 @@ categories: ''
 ![10 Tips to Enhance Men’s Sexual Health in {{site.keyword_location}}](/assets/images/erectile-dysfunction.jpg){:class="alignleft"}{:height="300px" width="300px"}
 <p>We are sexual creatures. We come from sex and we love with sex. So sex is very important, which makes it troubling that at least half of American men experience some sexual dysfunction.</p>
 <p>Sex is complicated in its psychodynamics, but it is also complicated from a physical aspect. Having an erection, maintaining one, or ejaculation problems (too soon or too delayed) can seriously jeopardize your relationship. Libido, that is, sexual desire, is hormonally controlled, and any change in it can send the wrong signal to your partner, risking estrangement. Then a vicious cycle begins, the physiological increasing the psychological, back and forth. This is not normal and it is unacceptable to assume any of these just come with age. (They actually do come with age—what is unacceptable is accepting it!)</p>
-<p>Schedule a consultation with a healthcare provider in {{site.keyword_location}} that can revitalize your sexual health. Call <a href="{{site.phone_link}}" title="call {{site.title}}">{{site.phone}}</a> or <a href="{{site.click_here}}">click here</a> to contact us online.</p>
+<p>Schedule a consultation with a healthcare provider in {{site.keyword_location}} that can revitalize your sexual health. Call <a href="tel:+{{site.phone_link}}" title="call {{site.title}}">{{site.phone}}</a> or <a href="{{site.url}}/request-an-appointment">click here</a> to contact us online.</p>
 <h2>To fight back, let’s look at some catchphrases to reclaim your sexual health:</h2>
 <ol type="1.">
   <li><strong>Eat to love, don’t love to eat.</strong> Choose unprocessed organic fruits and vegetables, healthy fats, grass-fed sources of protein, and beef up your omega-3 fatty acids and other healthy fats. Avoid junk food and foods processed with hormones and chemicals. Also avoid foods packaged with plastic and BPA and phytoestrogens.</li>
@@ -22,6 +22,7 @@ categories: ''
   <li><strong>Consider your prescriptions.</strong> Some will interfere with sexual ability. A lot! Talk to your doctor and tweak your meds. You may not be depressed anymore on your anti-depressant, but it’s not because you’re having more sex. You should be able to have your cake and eat it, too. Also, investigate the medical conditions that you are treating with these prescriptions. Professionals can share with you the latest advances in addressing sexual dysfunction.</li>
   <li><strong>Be your own best expert.</strong> Read, research, ask advice. Investigate. Sexual information, thanks to the Internet, is no longer taboo. Consider the source, always, but keep looking. You’re never too old to learn. </li>
   </ol>
-<p>To request more information about <u>male sexual health</u> and your prevention, enhancement and treatment options today call {{site.phone}} or <a href="{{site.click_here}}">click here</a> to contact us online.</p>
+<p>To request more information about <u>male sexual health</u> and your prevention, enhancement and treatment options today call <a href="tel:+{{site.phone_link}}" title="call {{site.title}}">{{site.phone}}</a> or <a href="{{site.url}}/request-an-appointment">click here</a> to contact us online.</p>
 <p><strong>Meet With a Male Sexual Health Specialist in {{site.keyword_location}}</strong></p>
 <p><strong>Request Your Appointment Today!</strong></p>
+<p></p><p></p>
