@@ -1,5 +1,6 @@
 ---
 layout: emails-drip
+meta_title: "See what these patients are saying about GAINSWave…"
 ---
 
 Still Having Trouble in the Bedroom? GAINSWave Can Help
