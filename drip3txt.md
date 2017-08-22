@@ -1,5 +1,6 @@
 ---
 layout: emails-drip
+meta_title: "Men’s Health Magazine and GAINSWave…"
 ---
 
 How to Regain Your Confidence and Stamina
