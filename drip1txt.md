@@ -1,5 +1,6 @@
 ---
 layout: emails-drip
+meta_title: "The latest enhancement therapy is now available"
 ---
 
 Proud to be Offering GAINSWave Therapy!
