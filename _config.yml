@@ -1,32 +1,30 @@
-name: "GAINSWave Orlando"
-description: "GAINSWave Orlando"
+name: "GAINSWave Columbus"
+description: "GAINSWave Columbus"
 baseurl: ''
-url: "http://gainswaveorlando.com"
+url: "http://gainswavecolumbusoh.com"
 
 
-physician_name: "Dr. John Carrozzella"
-practice_name: "Florida Center for Hormones and Wellness"
+physician_name: "Dr. ELIZABETH TUTTLE"
+practice_name: "Columbus Wellness Medicine, LLCs"
 logo: "logo.jpg"
 doctor_image: "doctor.jpg"
-address: "7575 Dr. Phillips Blvd Ste 370, Orlando, FL 32819"
-phone: "(407) 917-9120"
-phone_link: "4079179120"
-map_location: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.903789813138!2d-81.48963324860854!3d28.452316498877934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e77fa75b35d193%3A0x6057e287a566b6c7!2s7575+Dr+Phillips+Blvd+%23370%2C+Orlando%2C+FL+32819!5e0!3m2!1sen!2sus!4v1496341579294"
+address: "3807 Attucks Drive, Powell, OH, United States  43065"
+phone: ""
+phone_link: ""
+map_location: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3049.448428892052!2d-83.09211078496239!3d40.15456847939652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8838ed901d36a245%3A0xd26e4bb27d8c3d19!2sColumbus+Wellness+Medicine!5e0!3m2!1svi!2s!4v1504933824368"
 
-streetaddress: '7575 Dr. Phillips Blvd Ste 370'
-city: 'Orlando'
-state: 'FL'
-zipcode: '32819'
-
-click_here: "http://gainswaveorlando.com/request-an-appointment/"
+streetaddress: '3807 Attucks Drive'
+city: 'Powell'
+state: 'OH'
+zipcode: ' 43065'
 
 facebook_url: "https://www.facebook.com/gainswave/"
 twitter_url: "https://twitter.com/gainswave"
 youtube_url: "https://www.youtube.com/channel/UCWWUCBBqt1nca2TCRIEUNqw"
 
-keyword_location: "Orlando, FL"
-title: "GAINSWave Orlando - Florida Center for Hormones & Wellness"
-site_description: "Florida Center for Hormones & Wellness is located at 7575 Dr. Phillips Blvd Ste 370, Orlando, FL. Request your GAINSWave™ appointment today."
+keyword_location: "Powell, OH"
+title: "GAINSWave Columbus - Columbus Wellness Medicine, LLCs"
+site_description: "Columbus Wellness Medicine, LLCs is located at 3807 Attucks Drive, Powell, OH. Request your GAINSWave™ appointment today."
 
 home_page_banner_tagline: "A Breakthrough Solution for Men Seeking Better Erections & Optimal Sexual Performance"
 home_page_video1: "<iframe width='560' height='220' src='https://www.youtube.com/embed/S_iNBM_kqxM' frameborder='0' allowfullscreen></iframe>"
