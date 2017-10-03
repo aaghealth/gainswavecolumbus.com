@@ -28,7 +28,7 @@ RewriteRule ^(.+).html$ /$1 [R=301,L]
 
 
 redirect 301 /sitemap.html /sitemap
-ErrorDocument 404 http://gainswavecolumbusoh.com/404
+ErrorDocument 404 http://gainswavecolumbus.com/404
 
 <IfModule mod_expires.c>
 # Enable expirations
