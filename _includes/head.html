@@ -1,7 +1,7 @@
 <head>
 	<meta charset="utf-8">
-	<title>{% if page.meta_title %} {{page.meta_title  | replace:'#physician_name', site.physician_name}} - {{site.keyword_location}} {% else if page.layout = 'post' %} {{page.title | replace: '#key_location' , site.keyword_location }} {% else %}{{site.title}}{% endif %}</title>
-	<meta name="description" content="{% if page.excerpt and page.layout != 'post' %} {{page.excerpt | replace:'#key_location',site.keyword_location | replace: '#practice_name', site.practice_name | replace: '#phone', site.phone  }}{% else if page.layout == 'post' %} {{ page.content | strip_html | truncatewords: 30 }} {% else %} {{site.site_description}} {% endif %}"/>
+	<title>{% if page.meta_title %} {{page.meta_title  | replace:'#physician_name', site.physician_name}} - {{site.city}}, {{site.state}} {% else if page.layout = 'post' %} {{page.title | replace: '#meta_city' , site.city | replace: '#meta_state' , site.state }} {% else %}{{site.title}}{% endif %}</title>
+	<meta name="description" content="{% if page.excerpt and page.layout != 'post' %} {{page.excerpt | replace:'#meta_city',site.city | replace: '#practice_name', site.practice_name | replace: '#phone', site.phone  }}{% else if page.layout == 'post' %} {{ page.content | strip_html | truncatewords: 30 }} {% else %} {{site.site_description}} {% endif %}"/>
 	<link rel="canonical" href="{{ site.url }}{{ page.url}}">
 	{% if page.layout == 'post' %}
 	<meta name="robots" content="noindex, nofollow" />
