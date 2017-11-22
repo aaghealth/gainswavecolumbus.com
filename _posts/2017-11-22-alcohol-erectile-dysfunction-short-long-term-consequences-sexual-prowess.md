@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Alcohol and Erectile Dysfunction: Short- & Long-Term Consequences on Your Sexual Prowess
+title:  "Alcohol and Erectile Dysfunction: Short- & Long-Term Consequences on Your Sexual Prowess"
 featured: /assets/images/alcohol-and-erectile-dysfunction.jpg
 date:   2017-11-22
 categories: ''
@@ -8,7 +8,7 @@ categories: ''
 
 <p>As adults, many social activities, particularly in our nightlife, include the consumption of alcohol, the great facilitator of our uninhibited social behavior. By and large, social culture of 20-somethings resides in a bar, where alcohol-induced conversation runs rampant, and personality exudes freely.</p>
 
-![Test 1](/assets/images/alcohol-and-erectile-dysfunction.jpg){:class="alignright"}{:height="186px" width="279px"}
+![Alcohol and Erectile Dysfunction: Short- & Long-Term Consequences on Your Sexual Prowess](/assets/images/alcohol-and-erectile-dysfunction.jpg){:class="alignright"}{:height="186px" width="279px"}
 <p>For many, alcohol is a great way to take the edge off, particularly when approaching daunting situations. The bedroom, for example, is a setting from which much anxiety derives, with desperate thoughts of performance infecting a cool composure. It makes sense, then, why alcohol and dating so closely intertwine, when the first nervous utterance upon entrance into the apartment of a love interest is, “would you like a drink?”</p>
 <p>Recent research which explores the link between&nbsp;<strong>alcohol and erectile dysfunction</strong>, however, would have men reconsider their pre-game ritual, with a growing body of research revealing the adverse side effects—both short-term and long-term—of alcohol consumption on male sexual health.</p>
 <h2>Short-Term Effects of Alcohol on Male Sexual Health: Your Bedroom Buzzkill</h2>

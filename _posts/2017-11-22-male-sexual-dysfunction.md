@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  Male Sexual Dysfunction
+title:  "Male Sexual Dysfunction"
 featured: /assets/images/male-sexual-dysfunction.jpg
 date:   2017-11-22
 categories: ''
 ---
 
 <p>As many as 50 percent of men in America suffer from some form of sexual dysfunction; however, virtually every man in his lifetime will experience some sort of difficulty during sexual intercourse. For some, these problems may be temporary; for others, these problems can become chronic and have a profound impact on their intimate relationships and overall happiness.</p>
-![Test 1](/assets/images/male-sexual-dysfunction.jpg){:class="alignright"}{:height="300px" width="300px"}
+![Male Sexual Dysfunction](/assets/images/male-sexual-dysfunction.jpg){:class="alignright"}{:height="300px" width="300px"}
 <p>The most common sexual dysfunction issues men face involve either problems with ejaculation, difficulty developing or maintaining an erection (erectile dysfunction) or dwindling sex drive. These issues tend to exacerbate with age, although they can potentially impact a man at any age.</p>
 <p>Fortunately, sexual dysfunction problems are becoming less shrouded in secrecy or shame, and treatment options are expanding. To schedule a consultation with a healthcare provider that specializes in&nbsp;<strong>male sexual dysfunction</strong>,&nbsp;<a href="https://gainswave.com/directory/">click here</a> to find a GAINSWave provider near you!</p>
 <h2>Male Sexual Dysfunction Symptoms</h2>
