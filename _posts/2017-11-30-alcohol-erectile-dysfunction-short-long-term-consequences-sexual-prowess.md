@@ -2,7 +2,7 @@
 layout: post
 title:  "Alcohol and Erectile Dysfunction: Short- & Long-Term Consequences on Your Sexual Prowess"
 featured: /assets/images/alcohol-and-erectile-dysfunction.jpg
-date:   2017-11-22
+date:   2017-11-30
 categories: ''
 ---
 
@@ -21,7 +21,7 @@ categories: ''
 <h2>Cheers to Your Love Life: Explore Natural Male Enhancement Options</h2>
 <p>The effects of alcohol have been enjoyed for thousands of years and studies show that drinking alcohol in moderation is in fact good for your heart and circulation. But that doesn’t give you the OK to overdo it. According to the Centers for Disease Control and Prevention, moderate drinking for men is no more than one to two drinks per day. Drinking beyond this amount in turn causes the toxins from alcohol to build up in your body and begin affecting your organs, not the least of which includes the regulation of blood flow to the penis.</p>
 <p>If you’re worried about your performance ability in the bedroom, taking the edge off with alcohol can have a reverse effect, and attempting to bypass the temporary erectile dysfunction, alcohol may cause may lead to long-term erectile damage. For those men who seek performance-enhancing therapy, or are already suffering from ED—either from excessive alcohol consumption or from other environmental factors—there are natural ways to overcome your symptoms.</p>
-<p>GAINSWave™ provides a natural solution for both men suffering with erectile dysfunction and men seeking natural male enhancement. GAINSWave™ therapy uses acoustic sound waves that are applied to the penis to improve blood flow and encourage new blood vessel growth. It is one of the only non-invasive, drug-free options which provides long-term relief for erectile dysfunction, supporting up to 2 years post-treatment results. If you’re interested in learning more about the GAINSWave™ procedure, schedule a consultation with a GAINSWave™ provider.&nbsp;&nbsp;<a href="https://gainswave.com/directory/">Click here</a> to find a GAINSWave provider near you!</p>
+<p>GAINSWave™ provides a natural solution for both men suffering with erectile dysfunction and men seeking natural male enhancement. GAINSWave™ therapy uses acoustic sound waves that are applied to the penis to improve blood flow and encourage new blood vessel growth. It is one of the only non-invasive, drug-free options which provides long-term relief for erectile dysfunction, supporting up to 2 years post-treatment results. If you’re interested in learning more about the GAINSWave™ procedure, schedule a consultation with a GAINSWave™ provider.&nbsp;&nbsp;<a href="{{site.url}}/request-an-appointment/">Click here</a> to find a GAINSWave provider near you!</p>
 <h2>References</h2>
 <p>George, William H., Kelly Cue Davis, Jeanette Norris, Julia R. Heiman, Rebecca L. Schacht, Susan A. Stoner, and Kelly F. Kajumulo. “Alcohol and Erectile Response: The Effects of High Dosage in the Context of Demands to Maximize Sexual Arousal.” Experimental and clinical psychopharmacology. November 2006. Accessed February 02, 2017.&nbsp;<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3164266/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3164266/</a>.</p>
 <p>Mary A. Emanuele, M.D. and Nicholas Emanuele, M.D, “Alcohol and the Male Reproductive System,”&nbsp;<em>National Institute on Alcohol Abuse and Alcoholism</em>. Accessed February 2, 2017.&nbsp;<a href="https://pubs.niaaa.nih.gov/publications/arh25-4/282-287.htm">https://pubs.niaaa.nih.gov/publications/arh25-4/282-287.htm</a></p>
