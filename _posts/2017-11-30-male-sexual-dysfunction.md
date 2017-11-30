@@ -2,14 +2,14 @@
 layout: post
 title:  "Male Sexual Dysfunction"
 featured: /assets/images/male-sexual-dysfunction.jpg
-date:   2017-11-22
+date:   2017-11-30
 categories: ''
 ---
 
 <p>As many as 50 percent of men in America suffer from some form of sexual dysfunction; however, virtually every man in his lifetime will experience some sort of difficulty during sexual intercourse. For some, these problems may be temporary; for others, these problems can become chronic and have a profound impact on their intimate relationships and overall happiness.</p>
 ![Male Sexual Dysfunction](/assets/images/male-sexual-dysfunction.jpg){:class="alignright"}{:height="300px" width="300px"}
 <p>The most common sexual dysfunction issues men face involve either problems with ejaculation, difficulty developing or maintaining an erection (erectile dysfunction) or dwindling sex drive. These issues tend to exacerbate with age, although they can potentially impact a man at any age.</p>
-<p>Fortunately, sexual dysfunction problems are becoming less shrouded in secrecy or shame, and treatment options are expanding. To schedule a consultation with a healthcare provider that specializes in&nbsp;<strong>male sexual dysfunction</strong>,&nbsp;<a href="https://gainswave.com/directory/">click here</a> to find a GAINSWave provider near you!</p>
+<p>Fortunately, sexual dysfunction problems are becoming less shrouded in secrecy or shame, and treatment options are expanding. To schedule a consultation with a healthcare provider that specializes in&nbsp;<strong>male sexual dysfunction</strong>,&nbsp;<a href="{{site.url}}/request-an-appointment/">click here</a> to find a GAINSWave provider near you!</p>
 <h2>Male Sexual Dysfunction Symptoms</h2>
 <p>Male sexual dysfunction is a broad term that encompasses several different areas of male sexual performance, and as such, male&nbsp;<u>sexual dysfunction symptoms</u>&nbsp;vary based on the issue you are having with your sexual performance. Experiencing one or more of the following symptoms may indicate you are experiencing some form of sexual dysfunction.</p>
 <ul>
@@ -43,4 +43,4 @@ categories: ''
 <p><strong>GAINSWave™ therapy</strong>&nbsp;is a form of extracorporeal shock wave therapy which utilizes pulsed acoustical waves to increase blood flow to the penis. It is a safe and efficacious alternative therapy to traditional ED treatments like Viagra®&nbsp;and Cialis®which creates no harmful side effects and requires no downtime. It can be safely combined with treatments like hormone replacement therapy which seeks to revitalize a man’s testosterone levels, or with a penile injection which injects a man’s own platelet-rich plasma into his penis in order to stimulate healing.</p>
 <h2>Take Pleasure in Your Sex Life</h2>
 <p>If you are experiencing any form of sexual dysfunction, it is important to meet with a healthcare provider who understands men’s sexual health. Together with a healthcare provider, you can restore your sexual function to enjoy your sex life once again.</p>
-<p>Request more information about&nbsp;<em>male sexual dysfunction</em>&nbsp;and your treatment options today.&nbsp;<a href="https://gainswave.com/directory/">Click here</a> to find a GAINSWave provider near you!</p>
+<p>Request more information about&nbsp;<em>male sexual dysfunction</em>&nbsp;and your treatment options today.&nbsp;<a href="{{site.url}}/request-an-appointment/">Click here</a> to find a GAINSWave provider near you!</p>
